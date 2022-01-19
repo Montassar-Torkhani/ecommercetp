@@ -1,0 +1,78 @@
+
+		<!-- SECTION -->
+		<div class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+
+					<!-- section title -->
+					<div class="col-md-12">
+						<div class="section-title">
+							<h3 class="title">Shop</h3>
+							<div class="section-nav">
+								<ul class="section-tab-nav tab-nav">
+									<li class="active"><a data-toggle="tab"(click)="filter('')" role="tab"  href="">All Products</a></li>
+									<li><a data-toggle="tab" (click)="filter('cars offroad')" role="tab" href="">Cars Offroad</a></li>
+									<li><a data-toggle="tab" (click)="filter('cars sport')" role="tab" href="">Cars Sport</a></li>
+									<li><a data-toggle="tab" (click)="filter('cars compact')" role="tab" href="">Cars Compact</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- /section title -->
+
+					<!-- Products tab & slick -->
+					<div class="col-md-12">
+						<div class="">
+							<div class="products-tabs">
+								<!-- tab -->
+								<div id="tab2" class="tab-pane fade in active"  *ngFor="let p of filterCat  | filter:searchkey:'title'">
+									<div class="" data-nav="#slick-nav-2" >
+										<!-- product -->
+										<div id="i" class="product">
+											<div class="product-img"  >
+												<img  src="{{p.image}}"  alt="">
+												<div class="product-label">
+
+													<span class="new">NEW</span>
+												</div>
+											</div>
+											<div class="product-body">
+												<p class="product-category">{{p.category}}</p>
+												<h3 class="product-name"><a href="#">{{p.name}}</a></h3>
+												<h4 class="product-price">{{p.price}} DT </h4>
+												<div class="product-rating">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+												</div>
+												<div class="product-btns">
+													<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">add to wishlist</span></button>
+													<button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">add to compare</span></button>
+													<button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">quick view</span></button>
+													<button (click)="DeleteProduit(p.id)" class="quick-view"><i class="fa fa-trash"></i><span class="tooltipp">Delete</span></button>
+												</div>
+											</div>
+											<div class="add-to-cart">
+												<button class="add-to-cart-btn" (click)="addToCart(p)"><i class="fa fa-shopping-cart"></i> add to cart</button>
+											</div>
+										</div>
+										<!-- /product -->
+
+										<!-- product -->
+												</div>
+									<div id="slick-nav-2" class="products-slick-nav"></div>
+								</div>
+								<!-- /tab -->
+							</div>
+						</div>
+					</div>
+					<!-- /Products tab & slick -->
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>

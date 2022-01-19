@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": 18,
+      "title": "MBJ Women's Solid Short Sleeve Boat Neck V ",
+      "price": 9.85,
+      "description": "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem",
+      "category": "cars compact",
+      "image": "https://purepng.com/public/uploads/thumbnail/purepng.com-spyker-c8-silver-carcarvehicletransportspyker-9615246435160hyny.png",
+      "rating": {
+        "rate": 4.7,
+        "count": 130
+      }
+    }
+  ],
+  "cart": [
+    {}
+  ],
+  "users": [
+    {
+      "fname": "azeaze",
+      "lname": "azeazeazez",
+      "email": "ahmed.torcida147@yahoo.fr",
+      "password": "12345678",
+      "confirmPassword": "12345678",
+      "id": 1
+    },
+    {
+      "fname": "",
+      "lname": "",
+      "email": "",
+      "password": "",
+      "confirmPassword": "",
+      "id": 2
+    },
+    {
+      "fname": "ahmed",
+      "lname": "abdid",
+      "email": "ahmedabidi@yahoo.fr",
+      "password": "123456789",
+      "confirmPassword": "123456789",
+      "id": 3
+    }
+   
+  ]
+}
