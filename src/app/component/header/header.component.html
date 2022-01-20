@@ -10,8 +10,8 @@
       </ul>
       <ul class="header-links pull-right">
         <li><a routerLink="/addprod"><i class="fa fa-cart-plus"></i>ADD Product</a></li>
-        <li><a href="#"><i class="fa fa-dinar"></i> TND</a></li>
-        <li><i class="ti-user"></i> <a routerLink="/profile">{{authState === false ? 'LOGIN' : 'My Account'}}</a></li>
+        <li><a href="#"><i class="fa fa-dollar"></i> TND</a></li>
+        <li><i class="ti-user"></i> <a routerLink="/profile"class="fa fa-user">{{authState === false ? 'LOGIN' : 'My Account'}}</a></li>
         <li *ngIf="!authState"><a routerLink="/singup"><i class="fa fa-user-plus"></i> singup</a></li>
         <li><a (click)="logout()" *ngIf="authState === true" ><i class="fa fa-user-plus"></i> logout</a></li>
       </ul>
@@ -25,11 +25,11 @@
     <div class="container">
       <!-- row -->
       <div class="row">
-        <!-- LOGO -->
+        <!-- LOGO --> 
         <div class="col-md-3">
           <div class="header-logo">
-            <a href="#" class="logo">
-              <img src="assets/img/logo.png" alt="">
+            <a routerLink="/home" class="logo">
+              <img src="assets/img/logo montacars.png" >
             </a>
           </div>
         </div>
@@ -41,8 +41,9 @@
             <form>
               <select class="input-select">
                 <option value="0">All Categories</option>
-                <option value="1">Cars Offroad</option>
                 <option value="1">Sport Cars</option>
+                <option value="2">Compact Cars</option>
+                <option value="3">Mini Cars</option>
               </select>
               <input class="input" placeholder="Search here"
               [(ngModel)]="searchterm" (keyup)="search($event)" >
@@ -55,12 +56,21 @@
         <!-- ACCOUNT -->
         <div class="col-md-3 clearfix">
           <div class="header-ctn">
+
+            <!-- Go to product -->
+            <div>
+              <a routerLink="/produit">
+                <i class="fa fa-car"></i>
+                <span>PRODUCTS</span>
+              </a>
+            </div>
+
             <!-- Wishlist -->
             <div>
               <a href="#">
                 <i class="fa fa-heart-o"></i>
                 <span>Your Wishlist</span>
-                <div class="qty">2</div>
+                <div class="qty">0</div>
               </a>
             </div>
             <!-- /Wishlist -->

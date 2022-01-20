@@ -1,7 +1,7 @@
 <div class="container my-5">
   <div class="text-center my-5" *ngIf="product.length === 0;">
-
-    <button class="btn btn-primary btn-lg mt-3" routerLink="/">Go To Shop</button>
+<br><br>
+  <button class="btn btn-primary btn-lg mt-3" routerLink="/">Go To Shop</button>
 
   </div>
   <ng-container *ngIf="product.length !== 0;">
@@ -15,7 +15,7 @@
             <th>Price</th>
             <th>Quantity</th>
             <th>Subtotal</th>
-
+          
           </tr>
 
           </thead>
@@ -50,8 +50,8 @@
             <td style="border: none;"></td>
             <td></td>
             <td></td>
-            <td>TOTAL</td>
-            <td>{{Total}}DT</td>
+            <td> <strong> TOTAL</strong></td>
+            <td> <strong> {{Total}}DT </strong> </td>
           </tr>
           </tbody>
 

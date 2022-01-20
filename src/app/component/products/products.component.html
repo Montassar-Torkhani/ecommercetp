@@ -5,7 +5,6 @@
 			<div class="container">
 				<!-- row -->
 				<div class="row">
-
 					<!-- section title -->
 					<div class="col-md-12">
 						<div class="section-title">
@@ -13,34 +12,35 @@
 							<div class="section-nav">
 								<ul class="section-tab-nav tab-nav">
 									<li class="active"><a data-toggle="tab"(click)="filter('')" role="tab"  href="">All Products</a></li>
-									<li><a data-toggle="tab" (click)="filter('cars offroad')" role="tab" href="">Cars Offroad</a></li>
-									<li><a data-toggle="tab" (click)="filter('cars sport')" role="tab" href="">Cars Sport</a></li>
-									<li><a data-toggle="tab" (click)="filter('cars compact')" role="tab" href="">Cars Compact</a></li>
+									<li><a data-toggle="tab" (click)="filter('Sport Cars')" role="tab" href="">Sport Cars</a></li>
+									<li><a data-toggle="tab" (click)="filter('Compact Cars')" role="tab" href="">Compact Cars</a></li>
+									<li><a data-toggle="tab" (click)="filter('Mini Cars')" role="tab" href="">Mini Cars</a></li>
+									
+									
 								</ul>
 							</div>
 						</div>
 					</div>
 					<!-- /section title -->
-
 					<!-- Products tab & slick -->
 					<div class="col-md-12">
-						<div class="">
+						<div class="container">
 							<div class="products-tabs">
 								<!-- tab -->
 								<div id="tab2" class="tab-pane fade in active"  *ngFor="let p of filterCat  | filter:searchkey:'title'">
 									<div class="" data-nav="#slick-nav-2" >
 										<!-- product -->
+										
 										<div id="i" class="product">
 											<div class="product-img"  >
 												<img  src="{{p.image}}"  alt="">
 												<div class="product-label">
-
 													<span class="new">NEW</span>
 												</div>
 											</div>
 											<div class="product-body">
+												<h3 class="product-name"><a href="#">{{p.nom}}</a></h3>
 												<p class="product-category">{{p.category}}</p>
-												<h3 class="product-name"><a href="#">{{p.name}}</a></h3>
 												<h4 class="product-price">{{p.price}} DT </h4>
 												<div class="product-rating">
 													<i class="fa fa-star"></i>
@@ -61,7 +61,6 @@
 											</div>
 										</div>
 										<!-- /product -->
-
 										<!-- product -->
 												</div>
 									<div id="slick-nav-2" class="products-slick-nav"></div>

@@ -1,16 +1,193 @@
 {
   "products": [
     {
-      "id": 18,
-      "title": "MBJ Women's Solid Short Sleeve Boat Neck V ",
-      "price": 9.85,
-      "description": "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem",
-      "category": "cars compact",
+      "nom": "Spyker C8 Silver",
+      "title": "Essance",
+      "price": 250000000,
+      "description": "La C8 est une gamme de supercars produite par le constructeur automobile néerlandais Spyker Cars depuis 2001. Elle représente le modèle principal du constructeur. Elle est une concurrente des Lamborghini Gallardo ou Ferrari F430.",
+      "category": "Sport Cars",
       "image": "https://purepng.com/public/uploads/thumbnail/purepng.com-spyker-c8-silver-carcarvehicletransportspyker-9615246435160hyny.png",
-      "rating": {
-        "rate": 4.7,
-        "count": 130
-      }
+      "id": 22
+    },
+    {
+      "nom": "Bugatti Chiron ",
+      "title": "Essence",
+      "price": 8620000000,
+      "description": "La Chiron est une supercar du constructeur automobile français Bugatti (acquis en 1998 par le groupe allemand Volkswagen), descendante annoncée de la Bugatti Veyron 16.4. Elle tient son nom du pilote automobile monégasque Louis Chiron (1899-1979). Vitesse maximale : 350 à 490,484 km/h Moteur(s) : W16",
+      "category": "Sport Cars",
+      "image": "https://purepng.com/public/uploads/thumbnail/purepng.com-bugattibugattifrench-car-manufacturerhigh-performanceautomobilesbugatti-cars-1701527416768mcgck.png",
+      "id": 29
+    },
+    {
+      "nom": "BMW X6",
+      "title": "Essence",
+      "price": 2860000000,
+      "description": "La BMW X6 possède une silhouette unique doublée d'un caractère sportif grâce à une motorisation puissante, une suspension précise et des équipements tels que le pack xOffroad.  BMW X6 M50i : Consommation en l/100 km (cycle mixte) : 11,2 - 11,1 Émissions de CO2 en g/km (cycle mixte) : 257-276",
+      "category": "Compact Cars",
+      "image": "https://purepng.com/public/uploads/large/purepng.com-blue-bmwbmwcarluxurious-carbmw-carsblue-bmw-17015274154359tyiv.png",
+      "id": 28
+    },
+    {
+      "nom": "Ferrari Op",
+      "title": "Essence",
+      "price": 520000000,
+      "description": "LA  FERRARI  LA  PLUS  RAPIDE  ET  LA  PLUS  PUISSANTE  JAMAIS  CRÉÉE Lorsque Ferrari décide de développer un nouveau modèle, le premier défi, le plus difficile aussi, qu'elle doit relever est de repousser encore une fois les limites de ses propres réalisations.  Ce challenge est d'autant plus ardu lorsque la tâche à accomplir consiste à concevoir un nouveau moteur 12 cylindres, le moteur qui a marqué le début de l'histoire glorieuse du Cavalino Rampante en 1947, il y a 70 ans.  ",
+      "category": "Sport Cars",
+      "image": "https://purepng.com/public/uploads/thumbnail/purepng.com-ferrariferrariferrari-carsferrari-automobilescarssport-1701527480128al0u8.png",
+      "id": 26
+    },
+    {
+      "nom": "Lamborghini",
+      "title": "ESSANCE",
+      "price": 89250000000,
+      "description": "Un V12 de 6,5 litres développant 740 chevaux (544 kilowatts) et 690 Nm sur l'Aventador S. Alors pour ceux qui se demanderaient à quelle vitesse cette supercar à traction intégrale peut rouler sur l'Autobahn, voici une vidéo qui montre une Aventador atteignant plus de 320 km/h sur l'autoroute la plus rapide d'Europe",
+      "category": "Sport Cars",
+      "image": "https://purepng.com/public/uploads/thumbnail/purepng.com-lamborghinilamborghinilamborghini-automobilelamborghini-carssports-car-1701527505211kerjs.png",
+      "id": 43
+    },
+    {
+      "nom": "Porsche",
+      "title": "ESSANCE",
+      "price": 9760000000,
+      "description": "Porsche Car Models · Porsche Cayenne. Rs.1.26 - 1.93 Cr* (Price in New Delhi) · Porsche Macan. Rs.83.21 Lakh - 1.46 Cr* (Price in New Delhi) · Porsche 718. Rs.",
+      "category": "Sport Cars",
+      "image": "https://purepng.com/public/uploads/thumbnail/purepng.com-porscheporscheporsche-automobilesporsche-carsporsche-brand-1701527596741rlbnu.png",
+      "id": 40
+    },
+    {
+      "nom": "Mercedes Benz",
+      "title": "ESSANCE",
+      "price": 5930000000,
+      "description": "est une automobile du Segment A du constructeur automobile Renault-Nissan produite en Inde et au Brésil. C'est une petite citadine crossover. renault kwid sur fr.wikipedia.org Position du moteur : Transversale avant Consommation mixte : 4 L/100 km Moteur(s) : 3-cylindres 12 soupapes Émission de CO2 : 102 g/km",
+      "category": "Compact Cars",
+      "image": "https://purepng.com/public/uploads/thumbnail/yellow-mercedes-benz-glc-coupe-car-51506280038xizkwb7pwd.png",
+      "id": 45
+    },
+    {
+      "nom": "Chevrolet Camaro",
+      "title": "Essence",
+      "price": 2730000000,
+      "description": "Chevrolet est une marque d'automobile américaine créé par Louis Chevrolet en 1911 et ... En Tunisie Chevrolet est représentée par la Société Afrique Auto",
+      "category": "Sport Cars",
+      "image": "https://purepng.com/public/uploads/thumbnail/purepng.com-chevrolet-camarochevychevroletamerican-automobilechevrolet-cars-1701527423882urtcr.png",
+      "id": 34
+    },
+    {
+      "nom": "mini Coper BL",
+      "title": "ESSENCE",
+      "price": 7870000000,
+      "description": "EQUIPEMENTS FONCTIONNELS CLIMATISATION\tManuelle DIRECTION ASSISTÉE\tÉlectrique FERMETURE CENTRALISÉE\tÀ distance ORDINATEUR DE BORD\t SIÈGES AVANT RÉGLABLES EN HAUTEUR\tConducteur et passager RÉTROVISEURS EXTÉRIEURS\tÉlectriques | Rabattables VITRES ÉLECTRIQUES\tAvant/Arrière VOLANT RÉGLABLE\tEn hauteur",
+      "category": "Mini Cars",
+      "image": "https://purepng.com/public/uploads/thumbnail/purepng.com-mini-carsminicarsmini-automobilesmini-vehicle-1701527525826bcdgb.png",
+      "id": 52
+    },
+    {
+      "nom": "Jaguar",
+      "title": "ESSANCE",
+      "price": 3560000000,
+      "description": "MOTORISATION NOMBRE DE CYLINDRES\t4 ENERGIE\tEssence PUISSANCE FISCALE\t12 CV PUISSANCE (CH.DIN)\t200 CH COUPLE\t340 nm 1250 tr/min CYLINDRÉE",
+      "category": "Sport Cars",
+      "image": "https://purepng.com/public/uploads/thumbnail/purepng.com-blue-jaguar-f-type-carcarvehicletransportjaguar-961524656930n6ax7.png",
+      "id": 42
+    },
+    {
+      "nom": "mercedes benz gls",
+      "title": "ESSANCE",
+      "price": 6460000000,
+      "description": "DIMENSIONS LONGUEUR\t3805 mm LARGEUR\t1680 mm HAUTEUR\t1510 mm VOLUME DU COFFRE\t260 L",
+      "category": "Compact Cars",
+      "image": "https://purepng.com/public/uploads/thumbnail/mercedes-benz-gls-class-red-car-51506280093svhezz2q70.png",
+      "id": 49
+    },
+    {
+      "nom": "mini Coper op",
+      "title": "ESSENCE",
+      "price": 7640000000,
+      "description": "EQUIPEMENTS FONCTIONNELS CLIMATISATION\tManuelle DIRECTION ASSISTÉE\tÉlectrique FERMETURE CENTRALISÉE\tÀ distance ORDINATEUR DE BORD\t SIÈGES AVANT RÉGLABLES EN HAUTEUR\tConducteur et passager RÉTROVISEURS EXTÉRIEURS\tÉlectriques | Rabattables VITRES ÉLECTRIQUES\tAvant/Arrière VOLANT RÉGLABLE\tEn hauteur",
+      "category": "Mini Cars",
+      "image": "https://purepng.com/public/uploads/thumbnail/purepng.com-mini-carsminicarsmini-automobilesmini-vehicle-1701527525921idid7.png",
+      "id": 57
+    },
+    {
+      "nom": "Renault",
+      "title": "ESSANCE",
+      "price": 3950000000,
+      "description": "est une automobile du Segment A du constructeur automobile Renault-Nissan produite en Inde et au Brésil. C'est une petite citadine crossover. renault kwid sur fr.wikipedia.org Position du moteur : Transversale avant Consommation mixte : 4 L/100 km Moteur(s) : 3-cylindres 12 soupapes Émission de CO2 : 102 g/km",
+      "category": "Compact Cars",
+      "image": "https://purepng.com/public/uploads/thumbnail/purepng.com-renaultrenaultgroupe-renaultautomobile-manufacturerrenault-automobilesrenault-cars-1701527610464fcq8u.png",
+      "id": 44
+    },
+    {
+      "nom": "mini Coper Red",
+      "title": "ESSENCE",
+      "price": 6870000000,
+      "description": "EQUIPEMENTS INTÉRIEURS AUTORADIO\t4 haut-parleurs | Commandes au volant BOÎTE À GANTS RÉFRIGÉRÉE\t CONNECTIVITÉ\tUSB | AUX | Bluetooth POMMEAU DE LEVIER DE VITESSE\tCuir SELLERIE\tTissu VOLANT\tCuir | Multi-fonctions",
+      "category": "Mini Cars",
+      "image": "https://purepng.com/public/uploads/thumbnail/purepng.com-mini-carsminicarsmini-automobilesmini-vehicle-17015275259347uh1j.png",
+      "id": 51
+    },
+    {
+      "nom": "Hyundai",
+      "title": "ESSANCE",
+      "price": 2460000000,
+      "description": "1.2 83 CH Moteur à essence Le moteur à essence 1.2 MPi développe une puissance maximale de 83 ch à 6 000 tr/min pour un couple maximal de 12,3 m∙kg à 4 000 tr/min. Le bloc-cylindres et la culasse en aluminium contribuent à améliorer le rendement énergétique.",
+      "category": "Compact Cars",
+      "image": "https://purepng.com/public/uploads/thumbnail/purepng.com-hyundaihyundaihyundai-carshyundai-manufacturerhyundai-automobiles-1701527486817ss1zl.png",
+      "id": 47
+    },
+    {
+      "nom": "suzuki",
+      "title": "ESSANCE",
+      "price": 7460000000,
+      "description": "CARACTÉRISTIQUES DISPONIBILITÉ\tEn pré-commande | Sous réserve d'acceptation du dossier par le ministère du commerce CARROSSERIE\tCitadine GARANTIE\t5 ans VOITURE POPULAIRE\t NOMBRE DE PLACES\t5 NOMBRE DE PORTES\t5",
+      "category": "Compact Cars",
+      "image": "https://purepng.com/public/uploads/thumbnail/purepng.com-suzukisuzukisuzuki-carsuzuki-automobilessuzuki-carsvehicles-1701527677095huume.png",
+      "id": 48
+    },
+    {
+      "nom": "renault PARTNER",
+      "title": "ESSANCE",
+      "price": 4460000000,
+      "description": "CONSOMMATION CONSOMMATION URBAINE\t6.5 L/100 km CONSOMMATION EXTRA-URBAINE\t4.1 L/100 km CONSOMMATION MIXTE\t5 L/100 km",
+      "category": "Compact Cars",
+      "image": "https://purepng.com/public/uploads/thumbnail/purepng.com-renaultrenaultgroupe-renaultautomobile-manufacturerrenault-automobilesrenault-cars-1701527610440jmuj0.png",
+      "id": 50
+    },
+    {
+      "nom": "mini Coper BLack",
+      "title": "ESSENCE",
+      "price": 5870000000,
+      "description": "EQUIPEMENTS EXTÉRIEURS ANTIBROUILLARDS\t CALANDRE\tChromée ELÉMENTS EXTÉRIEURS COULEUR CARROSSERIE\tPoignées de portes JANTES\tEn aluminium | 15'' PEINTURE\tTwo-tone",
+      "category": "Mini Cars",
+      "image": "https://purepng.com/public/uploads/thumbnail/purepng.com-mini-carsminicarsmini-automobilesmini-vehicle-1701527525836xytos.png",
+      "id": 53
+    },
+    {
+      "nom": "mini Coper YL",
+      "title": "ESSENCE",
+      "price": 5670000000,
+      "description": "EQUIPEMENTS EXTÉRIEURS ANTIBROUILLARDS\t CALANDRE\tChromée ELÉMENTS EXTÉRIEURS COULEUR CARROSSERIE\tPoignées de portes JANTES\tEn aluminium | 15'' PEINTURE\tTwo-tone",
+      "category": "Mini Cars",
+      "image": "https://purepng.com/public/uploads/thumbnail/purepng.com-mini-carsminicarsmini-automobilesmini-vehicle-1701527525802qrybk.png",
+      "id": 54
+    },
+    {
+      "nom": "mini Coper wh",
+      "title": "ESSENCE",
+      "price": 3670000000,
+      "description": "EQUIPEMENTS FONCTIONNELS CLIMATISATION\tManuelle DIRECTION ASSISTÉE\tÉlectrique FERMETURE CENTRALISÉE\tÀ distance ORDINATEUR DE BORD\t SIÈGES AVANT RÉGLABLES EN HAUTEUR\tConducteur et passager RÉTROVISEURS EXTÉRIEURS\tÉlectriques | Rabattables VITRES ÉLECTRIQUES\tAvant/Arrière VOLANT RÉGLABLE\tEn hauteur",
+      "category": "Mini Cars",
+      "image": "https://purepng.com/public/uploads/thumbnail/purepng.com-mini-carsminicarsmini-automobilesmini-vehicle-1701527525741vsmqc.png",
+      "id": 55
+    },
+    {
+      "nom": "mini Coper ancien",
+      "title": "ESSENCE",
+      "price": 2610000000,
+      "description": "EQUIPEMENTS FONCTIONNELS CLIMATISATION\tManuelle DIRECTION ASSISTÉE\tÉlectrique FERMETURE CENTRALISÉE\tÀ distance ORDINATEUR DE BORD\t SIÈGES AVANT RÉGLABLES EN HAUTEUR\tConducteur et passager RÉTROVISEURS EXTÉRIEURS\tÉlectriques | Rabattables VITRES ÉLECTRIQUES\tAvant/Arrière VOLANT RÉGLABLE\tEn hauteur",
+      "category": "Mini Cars",
+      "image": "https://purepng.com/public/uploads/thumbnail/purepng.com-mini-carsminicarsmini-automobilesmini-vehicle-1701527525847wmgzd.png",
+      "id": 56
     }
   ],
   "cart": [
@@ -18,29 +195,28 @@
   ],
   "users": [
     {
-      "fname": "azeaze",
-      "lname": "azeazeazez",
-      "email": "ahmed.torcida147@yahoo.fr",
+      "fname": "fadi",
+      "lname": "yackoubi",
+      "email": "fedi.yackoubi@yahoo.fr",
       "password": "12345678",
       "confirmPassword": "12345678",
       "id": 1
     },
     {
-      "fname": "",
-      "lname": "",
-      "email": "",
-      "password": "",
-      "confirmPassword": "",
-      "id": 2
-    },
-    {
       "fname": "ahmed",
       "lname": "abdid",
       "email": "ahmedabidi@yahoo.fr",
-      "password": "123456789",
+      "password": "00000000",
       "confirmPassword": "123456789",
       "id": 3
+    },
+    {
+      "fname": "maher",
+      "lname": "jlassi",
+      "email": "maher.jlassi@email.com",
+      "password": "azerty123",
+      "confirmPassword": "azerty123",
+      "id": 4
     }
-   
   ]
 }

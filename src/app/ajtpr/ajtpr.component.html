@@ -1,45 +1,41 @@
-<form style="margin-top: 40px;" #f="ngForm" > 
-<label  class="label-control"> Nom </label>
+<div class="container">
+    <form style="margin-top: 50px;  padding-bottom: 60px ;" #f="ngForm" > 
 
-    <input #nom="ngModel"
-ngModel name="nom"
-type="text" class="form-control">
+        <label  class="label-control"  > Nom </label>
+        <input #nom="ngModel"
+        ngModel name="nom"
+        type="text" class="form-control">
+        
+        <label  class="label-control"> Title </label>
+        <input #title="ngModel"
+        ngModel name="title"
+        type="text" class="form-control">
+        
+        <label  class="label-control"> Price </label>
+        <input #price="ngModel"
+        ngModel name="price"
+        type="number" class="form-control">
+        
+        <label  class="label-control"> Description </label>
+        <input #description="ngModel"
+        ngModel name="description"
+        type="text" class="form-control" >
+        
+        <label  class="label-control"> Category </label>
+        <input #category="ngModel"
+        ngModel name="category"
+        type="text" class="form-control">
+        
+        <label  class="label-control"> Image </label>
+        <input #image="ngModel"
+        ngModel name="image"
+        type="text" class="form-control">
+        <img [src]="image.value" *ngIf="image.value">
+        
+        
+        <br>
+        <button (click)="postPord(f.value)" class="btn btn-primary sm" style= " margin-left: 30%; width: 40%;" >submit</button>
+        </form>
+        
 
-<label  class="label-control"> Title </label>
-<input #title="ngModel"
-ngModel name="title"
-type="text" class="form-control">
-
-<label  class="label-control"> Price </label>
-<input #price="ngModel"
-ngModel name="price"
-type="number" class="form-control">
-
-<label  class="label-control"> Description </label>
-<input #description="ngModel"
-ngModel name="description"
-type="text" class="form-control">
-
-<label  class="label-control"> Ctegory </label>
-<input #category="ngModel"
-ngModel name="category"
-type="text" class="form-control">
-
-<label  class="label-control"> Image </label>
-<input #image="ngModel"
-ngModel name="image"
-type="text" class="form-control">
-<img [src]="image.value" *ngIf="image.value">
-
-<label  class="label-control"> Rate </label>
-<input #rate="ngModel"
-ngModel name="rate"
-type="number" class="form-control">
-
-<label  class="label-control"> Count </label>
-<input #count="ngModel"
-ngModel name="count"
-type="number" class="form-control">
-
-<button (click)="postPord(f.value)" class="btn btn-primary">submit</button>
-</form>
+</div>

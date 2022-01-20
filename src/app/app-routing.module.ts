@@ -8,14 +8,18 @@ import { ProfileComponent } from './component/profile/profile.component';
 import { SignupComponent } from './component/signup/signup.component';
 import { AuthGuard } from './guard/auth.guard';
 import { GuestGuard } from './guard/guest.guard';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
   {path:'',component:ProductsComponent},
+  {path:'produit',component:ProductsComponent},
   {path:'cart',component: CartComponent},
   {path:'login',component: LoginComponent,canActivate:[GuestGuard]},
   {path:'singup',component: SignupComponent,canActivate:[GuestGuard]},
   {path:'profile',component: ProfileComponent, canActivate:[AuthGuard]},
-  {path:'addprod',component:AjtprComponent }
+  {path:'addprod',component:AjtprComponent },
+  {path:'home',component:HomeComponent}
+
 
 
 

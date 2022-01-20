@@ -11,7 +11,6 @@ export class AjtprComponent implements OnInit {
 newProd:Produit={
   category:"",
 description:"",
-
 image:"",
 price:0,
 title:"",

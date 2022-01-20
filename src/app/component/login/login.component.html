@@ -3,17 +3,17 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
 
-  <div class="container " >
+  <div class="container"  >
     <div class="screen" >
       <div class="screen__content ">
         <form class="login" novalidate >
           <div class="login__field">
             <i class="login__icon fas fa-user"></i>
-            <input type="email" class="login__input"  placeholder="User name / Email">
+            
           </div>
           <div class="login__field">
             <i class="login__icon fas fa-lock"></i>
-            <input type="password" class="login__input" placeholder="Password"  >
+            
           </div>
           <button class="button login__submit">
             <span class="button__text">Log In Now</span>
@@ -40,12 +40,13 @@
     <label for="username">Email</label>
     <input type="text" placeholder="Email" #email="ngModel" ngModel name="email" >
 
-    <label for="password">Password</label>
-    <input type="text" placeholder="Password" #password="ngModel" ngModel name="passowrd" >
+    <label >Password</label>
+    <input type="password" placeholder="Pass" #pass="ngModel" ngModel name="pass" >
 
-    <button (click)="login(f)">Log In</button>
-    <div class="social">
+    <button (click)="login(f.value)">Log In</button>
+    <div class="social" style="background-color: rgb(0, 0, 0);"  >
       <div class="go"><i class="fab fa-google"></i>  Google</div>
       <div class="fb"><i class="fab fa-facebook"></i>  Facebook</div>
     </div>
 </form>
+<div style="margin-bottom: 35%;" ></div>
